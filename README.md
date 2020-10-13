@@ -71,11 +71,15 @@
   "data": 
   ```
   {
-      "poolNodes": [{ 
-        "id": String, // 集群id
-	"poolName": String, // 集群名称
-	"storageSize": Number // 已用空间
-      }], // 各集群存储空间使用情况
+      "poolNodes": [
+      ```
+	      { 
+		"id": String, // 集群id
+		"poolName": String, // 集群名称
+		"storageSize": Number // 已用空间
+	      }
+      ```
+      ], // 各集群存储空间使用情况
       "minerPower": Array, // 各集群有效算力
       "serverDayPower": Array, 
       "sevenDayProfit": Array, 
