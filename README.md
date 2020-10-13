@@ -6,11 +6,7 @@
 - Method: **POST**
 - URL:  ```/userInfo```
 - Headers：
-- Body:
-
-```
-{}
-```
+- Body: {} 
 
 #### Response
 - Body
