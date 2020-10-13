@@ -108,7 +108,8 @@
 	      { 
 		"id": String, // 集群id
 		"poolName": String, // 集群名称
-		"storageSize": Number // 已用空间
+		"usedSize": Number // 已用空间
+		"storageSize": Number // 总空间
 		
 	      }
       ], // 各集群存储空间使用情况
