@@ -17,7 +17,11 @@
 {
   "code": 1,
   "message": "OK"
-  "data": {
+  "data": 
+  
+  ```
+  {
+  
       "id": String, // 用户id
       "phoneNum": String, // 手机号
       "nickName": String, //用户昵称
@@ -27,5 +31,5 @@
       "verifyIdCardMsg" : String, // 审核备注信息
       "googleAuthStatus" : Number, // 谷歌认证状态},
 
-}
+  }
 ```
