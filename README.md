@@ -74,11 +74,12 @@
   {
   	"totalNode": Number, // 我的节点数
 	"lastDayProfit": String, // 昨日收益
-  	"myPower": String, // 我的有效算力（新增）
+	"myPower": String, // 我的有效算力（新增）	
 	"storage": 
 	{
 		"effectiveStorage": Float, // 已使用
 		"totalStorage": String, // 总空间
+		
 	},
 	
   }
