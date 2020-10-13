@@ -16,7 +16,7 @@
 - Body
 {
   "code": 1,
-  "message": "OK"
+  "msg": "success"
   "data": 
   
   ```
@@ -30,7 +30,7 @@
       "idCardStatus" : Number, // 实名状态
       "verifyIdCardMsg" : String, // 审核备注信息
       "googleAuthStatus" : Number, // 谷歌认证状态
-   }
-
+  }
+  ```
 }
-```
+
