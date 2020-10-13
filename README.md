@@ -34,3 +34,26 @@
   ```
 }
 
+### 修改用户昵称
+
+#### Request
+- Method: **POST**
+- URL:  ```/userInfo```
+- Headers：
+- Body:
+
+```
+{
+     "id": String, // 用户id
+     "nickName": String, //用户昵称
+     
+}
+```
+
+#### Response
+- Body
+{
+  "code": 1,
+  "msg": "success"
+  "data": {}
+}
