@@ -72,32 +72,31 @@
   ```
   {
       "poolNodes": [
-      ```
 	      { 
 		"id": String, // 集群id
 		"poolName": String, // 集群名称
 		"storageSize": Number // 已用空间
+		
 	      }
-      ```
       ], // 各集群存储空间使用情况
       "minerPower": Array, // 各集群有效算力
       "serverDayPower": Array, 
       "sevenDayProfit": Array, 
       "timelyInfo": 
-      {
-      	  "totalPower": 
-	  {
-	      "minerAdjPower": Float, // 星威矿池总算力
-	      "totalAdjPower": Float, // 全网有效算力
-	      "highLevel": Number, // 全网区块高度（新增）
-	      "lockFile": String, // 全网总质押（新增）
-	  },
-	  "blockCount": Number, // 矿池创建区块量
-	  "lockFile": String, // 矿池总质押
-	  "currentlockFile": String, // 当前扇区质押 （新增）
-	  "blockNewReward": String, // 最新区块奖励（新）
-	  "blockAvgReward": String, // 24H平均收益（新）
-      }
+	      {
+		  "totalPower": 
+			  {
+			      "minerAdjPower": Float, // 星威矿池总算力
+			      "totalAdjPower": Float, // 全网有效算力
+			      "highLevel": Number, // 全网区块高度（新增）
+			      "lockFile": String, // 全网总质押（新增）
+			  },
+		  "blockCount": Number, // 矿池创建区块量
+		  "lockFile": String, // 矿池总质押
+		  "currentlockFile": String, // 当前扇区质押 （新增）
+		  "blockNewReward": String, // 最新区块奖励（新）
+		  "blockAvgReward": String, // 24H平均收益（新）
+	      }
       
   }
   ```
