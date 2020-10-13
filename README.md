@@ -1,26 +1,31 @@
-# cdscapp
+# 星威矿池APP2.0 
+	
+### 获取用户昵称
 
-## Project setup
-```
-npm install
-```
+#### Request
+- Method: **POST**
+- URL:  ```/userInfo```
+- Headers：
+- Body:
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+{}
 ```
 
-### Run your tests
-```
-npm run test
-```
+#### Response
+- Body
+{
+  "code": 1,
+  "message": "OK"
+  "data": {
+      "id": String, // 用户id
+      "phoneNum": String, // 手机号
+      "nickName": String, //用户昵称
+      "fullName": String, // 用户姓名
+      "email": String,// 绑定邮箱
+      "idCardStatus" : Number, // 实名状态
+      "verifyIdCardMsg" : String, // 审核备注信息
+      "googleAuthStatus" : Number, // 谷歌认证状态},
 
-### Lints and fixes files
-```
-npm run lint
+}
 ```
