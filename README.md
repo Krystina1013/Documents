@@ -29,7 +29,8 @@
       "email": String,// 绑定邮箱
       "idCardStatus" : Number, // 实名状态
       "verifyIdCardMsg" : String, // 审核备注信息
-      "googleAuthStatus" : Number, // 谷歌认证状态},
+      "googleAuthStatus" : Number, // 谷歌认证状态
+   }
 
-  }
+}
 ```
