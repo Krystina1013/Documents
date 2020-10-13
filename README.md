@@ -78,8 +78,8 @@
 	"storage": 
 	{
 		"effectiveStorage": Float, // 已使用
-		"totalStorage": String // 总空间
-	}
+		"totalStorage": String, // 总空间
+	},
 	
   }
       
